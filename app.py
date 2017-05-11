@@ -38,7 +38,7 @@ class MainApplication():
         pname = fn.split("/")
         pname = pname[len(pname)-1]
         self.root.title("Pedit - "+pname)
-        self.save()
+        self.save("")
     def __screen(self, event):
         self.text.width = event.width
         self.text.heigth = event.height
