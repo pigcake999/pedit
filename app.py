@@ -16,7 +16,7 @@ def spaces(s):
     return str(num)
 
 class MainApplication():
-    def run(self):
+    def run(self, event):
         global fn
         if platform.system() == "Windows":
             os.system("python "+fn)
